@@ -1,0 +1,1 @@
+`mvn clean package` dedikten sonra jar dosyası oluşturulup local maven repository'ye yüklenmiş olur.
