@@ -26,7 +26,7 @@ Proje çok basit bir şekilde birkaç saniyede çalıştırılabilir. Bilgisayar
 1. config-reader projesi altından `mvn clean package` komutu ile local mvn repository'ye yüklenir.
 2. config-client projesi altından `./build.sh` çalıştırılıp jar dosyası oluşturulur ve docker'a yüklenir.
 3. config-manager projesi altından `./build.sh` çalıştırılıp jar dosyası oluşturulur ve docker'a yüklenir.
-4. config-manager projesi altından `docker-compose up` ile config-client ve config-manager beraber ayağa kaldırılabilir.
+4. config-manager projesi altından `docker-compose up` ile config-client ve config-manager ve mongo database beraber ayağa kaldırılır.
 
  docker-compose.yml deki default ayarlara göre: 
  config-manager url: `http://localhost:8080`
