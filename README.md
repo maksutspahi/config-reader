@@ -1,12 +1,14 @@
 Bu proje 3 farklı component'tan oluşmaktadır.
 
-   1- config-reader
+   1- config-reader -> https://github.com/maksutspahi/config-reader
         Client'larin kendi projelerine ekleyebilecekleri kütüphanenin olduğu proje.
         Java-8, Spring-boot, Maven, MongoDb, Docker, Maven, Lombok,
-   2- config-manager
+   
+   2- config-manager -> https://github.com/maksutspahi/config-manager
         Konfigurasyon ekle/çıkar/güncelle işlemlerinin yapıldığı proje.
         Java-8, Spring-boot, MongoDb, Maven, Docker, Lombok, Freemarker template, Jquery, Bootstrap
-   3- config-client
+   
+   3- config-client -> https://github.com/maksutspahi/config-client
         Config-reader kullanarak konfigurasyonların okunması.
         Java-8, Spring-boot, MongoDb, Maven, Docker, Lombok kullanıldı.
         
