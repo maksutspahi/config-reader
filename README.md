@@ -23,7 +23,7 @@ _Nasıl çalıştırılır:_
        
 Proje çok basit bir şekilde birkaç saniyede çalıştırılabilir. Bilgisayarda java-8, maven ve docker kurulu olması gerekiyor.
        
-1. config-reader projesi altından `mvn clean package` komutu ile local mvn repository'ye yüklenir.
+1. config-reader projesi altından `mvn clean install` komutu ile local mvn repository'ye yüklenir.
 2. config-client projesi altından `./build.sh` çalıştırılıp jar dosyası oluşturulur ve docker'a yüklenir.
 3. config-manager projesi altından `./build.sh` çalıştırılıp jar dosyası oluşturulur ve docker'a yüklenir.
 4. config-manager projesi altından `docker-compose up` ile config-client ve config-manager ve mongo database beraber ayağa kaldırılır.
